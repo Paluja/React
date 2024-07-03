@@ -1,0 +1,29 @@
+.component {
+  background-color: aquamarine;
+}
+
+.title {
+  color: yellow;
+}
+
+.paragraph {
+  color: green;
+}
+
+.task-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.task-element button{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+}
